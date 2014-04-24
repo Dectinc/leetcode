@@ -9,6 +9,7 @@ Dectinc_Chen
 - [Longest Substring Without Repeating Characters](md/Longest Substring Without Repeating Characters.md)
 
 ## Solved Problem list
+- [Spiral Matrix](md/Spiral Matrix.md) - 2014-04-24
 - [Single Number](md/Single Number.md) - 2014-04-23
 - [Reverse Integer](md/Reverse Integer.md) - 2014-04-23
 - [Same Tree](md/Same Tree.md) - 2014-04-23
