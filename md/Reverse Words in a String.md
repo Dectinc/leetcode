@@ -10,16 +10,17 @@ return "blue is sky the".
 
 Clarification:
 
-> What constitutes a word?
->> A sequence of non-space characters constitutes a word.
+- What constitutes a word?
+	
+	A sequence of non-space characters constitutes a word.
 
 - Could the input string contain leading or trailing spaces?
 
-Yes. However, your reversed string should not contain leading or trailing spaces.
+	Yes. However, your reversed string should not contain leading or trailing spaces.
 
 - How about multiple spaces between two words?
 
-Reduce them to a single space in the reversed string.
+	Reduce them to a single space in the reversed string.
 
 ``` java
 public class Solution {
