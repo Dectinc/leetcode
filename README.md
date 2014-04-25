@@ -6,9 +6,9 @@ leetcode_java
 Dectinc_Chen
 
 ## Solving Problem list
-- [Longest Substring Without Repeating Characters](md/Longest Substring Without Repeating Characters.md)
 
 ## Solved Problem list
+- [Longest Substring Without Repeating Characters](md/Longest Substring Without Repeating Characters.md) - 2014-04-24
 - [Single Number II](md/Single Number II.md) - 2013-04-24
 - [Spiral Matrix](md/Spiral Matrix.md) - 2014-04-24
 - [Single Number](md/Single Number.md) - 2014-04-23
