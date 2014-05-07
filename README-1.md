@@ -8,9 +8,17 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+<<<<<<< HEAD
+<<<<<<< HEAD
 - [Plus One](md/Plus One.md) - 2014-05-03
 - [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - 2014-05-03
 - [Best Time to Buy and Sell Stock](md/Best Time to Buy and Sell Stock.md) - 2014-04-29
+=======
+=======
+>>>>>>> FETCH_HEAD
+- [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - 2014-05-03
+- [Best Time to Buy and Sell Stock](md/[Best Time to Buy and Sell Stock].md) - 2014-04-29
+>>>>>>> FETCH_HEAD
 - [Longest Substring Without Repeating Characters](md/Longest Substring Without Repeating Characters.md) - 2014-04-24
 - [Single Number II](md/Single Number II.md) - 2013-04-24
 - [Spiral Matrix](md/Spiral Matrix.md) - 2014-04-24
