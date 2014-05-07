@@ -17,6 +17,7 @@ Dectinc_Chen
 =======
 >>>>>>> FETCH_HEAD
 - [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - 2014-05-03
+- [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - 2014-05-03
 - [Best Time to Buy and Sell Stock](md/[Best Time to Buy and Sell Stock].md) - 2014-04-29
 >>>>>>> FETCH_HEAD
 - [Longest Substring Without Repeating Characters](md/Longest Substring Without Repeating Characters.md) - 2014-04-24
