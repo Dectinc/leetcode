@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Generate Parentheses](md/Generate Parentheses.md) - 2014-05-08
 - [Plus One](md/Plus One.md) - 2014-05-03
 - [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - 2014-05-03
 - [Best Time to Buy and Sell Stock](md/Best Time to Buy and Sell Stock.md) - 2014-04-29
