@@ -9,7 +9,7 @@ Dectinc_Chen
 
 ## Solved Problem list
 - [Generate Parentheses](md/Generate Parentheses.md) - 2014-05-08
-- [Plus One](md/Plus One.md) - 2014-05-03
+- [Plus One](md/Plus One.md) - 2014-05-07
 - [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - 2014-05-03
 - [Best Time to Buy and Sell Stock](md/Best Time to Buy and Sell Stock.md) - 2014-04-29
 - [Longest Substring Without Repeating Characters](md/Longest Substring Without Repeating Characters.md) - 2014-04-24
