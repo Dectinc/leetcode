@@ -6,6 +6,7 @@ leetcode_java
 Dectinc_Chen
 
 ## Solving Problem list
+- [Balanced Binary Tree](md/Balanced Binary Tree.md) - 2014-05-10
 
 ## Solved Problem list
 - [Generate Parentheses](md/Generate Parentheses.md) - 2014-05-08
