@@ -8,6 +8,10 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Pascal's Triangle](md/Pascal's Triangle.md) - 2014-05-12
+- [Longest Common Prefix](md/Longest Common Prefix.md) - 2014-05-12
+- [Valid Palindrome](md/Valid Palindrome.md) - 2014-05-12
+- [Symmetric Tree](md/Symmetric Tree.md) - 2014-05-12
 - [Add Two Numbers](md/Add Two Numbers.md) - 2014-05-12
 - [Balanced Binary Tree](md/Balanced Binary Tree.md) - 2014-05-12
 - [Generate Parentheses](md/Generate Parentheses.md) - 2014-05-08
