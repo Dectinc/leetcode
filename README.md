@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Add Two Numbers](md/Add Two Numbers.md) - 2014-05-12
 - [Balanced Binary Tree](md/Balanced Binary Tree.md) - 2014-05-12
 - [Generate Parentheses](md/Generate Parentheses.md) - 2014-05-08
 - [Plus One](md/Plus One.md) - 2014-05-07
