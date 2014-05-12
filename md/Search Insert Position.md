@@ -38,7 +38,6 @@ public class Solution {
         } else {
             return biSearch(A, start, mid, target);
         }
-        
     }
 }
 ```
