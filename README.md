@@ -6,9 +6,9 @@ leetcode_java
 Dectinc_Chen
 
 ## Solving Problem list
-- [Balanced Binary Tree](md/Balanced Binary Tree.md) - 2014-05-10
 
 ## Solved Problem list
+- [Balanced Binary Tree](md/Balanced Binary Tree.md) - 2014-05-12
 - [Generate Parentheses](md/Generate Parentheses.md) - 2014-05-08
 - [Plus One](md/Plus One.md) - 2014-05-07
 - [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - 2014-05-03

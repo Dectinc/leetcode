@@ -32,9 +32,9 @@ public class Solution {
         if (root == null) {
             return 0;
         }
-        int depth = 1;
+        int depth = 0;
         if (root.left == null && root.right == null) {
-            depth = depth + 1;
+            depth = 1;
         }
         else if (root.left == null) {
             depth = getDepth(root.right) + 1;
