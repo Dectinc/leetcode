@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Median of Two Sorted Arrays](md/Median of Two Sorted Arrays.md) - 2014-05-13
 - [Two Sum](md/Two Sum.md) - 2014-05-13
 - [Search Insert Position](md/Search Insert Position.md) - 2014-05-12
 - [Pascal's Triangle](md/Pascal's Triangle.md) - 2014-05-12
