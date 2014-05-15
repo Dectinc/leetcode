@@ -18,6 +18,7 @@ Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
 Although the above answer is in lexicographical order, your answer could be in any order you want.
 
 **Solution**
+
 Use DFS to generate all the possible combinations.
 
 **Code**
@@ -30,7 +31,8 @@ public class Solution {
 
 	static {
 		map = new HashMap<Character, Character[]>();
-		map.put('2', new Character[] { 'a', 'b', 'c' });	// note the way to initilize a Character array when update the hashmap
+		// note the way to initilize a Character array when update the hashmap
+		map.put('2', new Character[] { 'a', 'b', 'c' });
 		map.put('3', new Character[] { 'd', 'e', 'f' });
 		map.put('4', new Character[] { 'g', 'h', 'i' });
 		map.put('5', new Character[] { 'j', 'k', 'l' });
