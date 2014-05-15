@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Letter Combinations of a Phone Number](md/Letter Combinations of a Phone Number.md) - 2014-05-15
 - [Count and Say](md/Count and Say.md) - 2014-05-14
 - [Median of Two Sorted Arrays](md/Median of Two Sorted Arrays.md) - 2014-05-13
 - [Two Sum](md/Two Sum.md) - 2014-05-13
