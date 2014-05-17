@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Swap Nodes in Pairs](md/Swap Nodes in Pairs.md) - 2014-05-17
 - [Roman to Integer](md/Roman to Integer.md) - 2014-05-16
 - [Letter Combinations of a Phone Number](md/Letter Combinations of a Phone Number.md) - 2014-05-15
 - [Count and Say](md/Count and Say.md) - 2014-05-14
