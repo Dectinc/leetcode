@@ -1,6 +1,6 @@
 ## [Swap Nodes in Pairs](http://oj.leetcode.com/problems/swap-nodes-in-pairs/)
 
-**Problem**
+### Problem
 
 Given a linked list, swap every two adjacent nodes and return its head.
 
@@ -10,10 +10,10 @@ Given `1->2->3->4`, you should return the list as `2->1->4->3`.
 
 Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.
 
-**Solution**
+### Solution
 
 
-**Code**
+### Code
 
 ``` java
 /**
@@ -52,4 +52,4 @@ public class Solution {
 }
 ```
 
-**Refinement**
+### Refinement
