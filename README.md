@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Minimum Window Substring](md/Minimum Window Substring.md) - 2014-05-18
 - [Swap Nodes in Pairs](md/Swap Nodes in Pairs.md) - 2014-05-17
 - [Roman to Integer](md/Roman to Integer.md) - 2014-05-16
 - [Letter Combinations of a Phone Number](md/Letter Combinations of a Phone Number.md) - 2014-05-15
