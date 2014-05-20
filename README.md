@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Trapping Rain Water](md/Trapping Rain Water.md) - 2014-05-20
 - [Best Time to Buy and Sell Stock III](md/Best Time to Buy and Sell Stock III.md) - 2014-05-19
 - [Minimum Window Substring](md/Minimum Window Substring.md) - 2014-05-18
 - [Swap Nodes in Pairs](md/Swap Nodes in Pairs.md) - 2014-05-17
