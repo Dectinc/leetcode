@@ -55,8 +55,6 @@ public class Solution {
 	private boolean match(int i, int j) {
 		if (i == lenS && j == lenP) {
 			return true;
-		} else if (i == lenS || j == lenP) {
-			return false;
 		}
 		if (j + 1 < lenP && pp[j + 1] != '*') {
 			if (i < lenS && match(ss[i], pp[j])) {
