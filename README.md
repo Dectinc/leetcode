@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Search in Rotated Sorted Array II](md/Search in Rotated Sorted Array II.md) - 2014-05-22
 - [Search in Rotated Sorted Array](md/Search in Rotated Sorted Array.md) - 2014-05-22
 - [Regular expression matching](md/Regular expression matching.md) - 2014-05-22
 - [Minimum Depth of Binary Tree](md/Minimum Depth of Binary Tree.md) - 2014-05-21
