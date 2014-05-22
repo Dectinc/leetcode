@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Regular expression matching](md/Regular expression matching.md) - 2014-05-22
 - [Minimum Depth of Binary Tree](md/Minimum Depth of Binary Tree.md) - 2014-05-21
 - [Trapping Rain Water](md/Trapping Rain Water.md) - 2014-05-20
 - [Best Time to Buy and Sell Stock III](md/Best Time to Buy and Sell Stock III.md) - 2014-05-19
