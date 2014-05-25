@@ -27,9 +27,6 @@ __Note:__ Recursive solution is trivial, could you do it iteratively?
 
 ``` java
 /**
- * Recursive edition
- */
-/**
  * Definition for binary tree
  * public class TreeNode {
  *     int val;
