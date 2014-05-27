@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Climbing Stairs](md/Climbing Stairs.md) - 2014-05-27
 - [Integer to Roman](md/Integer to Roman.md) - 2014-05-26
 - [Binary Tree Inorder Traversal](md/Binary Tree Inorder Traversal.md) - 2014-05-23
 - [Search in Rotated Sorted Array II](md/Search in Rotated Sorted Array II.md) - 2014-05-22
