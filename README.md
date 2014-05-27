@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Merge Two Sorted Lists](md/Merge Two Sorted Lists.md) - 2014-05-27
 - [Remove Duplicates from Sorted List](md/Remove Duplicates from Sorted List.md) - 2014-05-27
 - [Climbing Stairs](md/Climbing Stairs.md) - 2014-05-27
 - [Integer to Roman](md/Integer to Roman.md) - 2014-05-26
