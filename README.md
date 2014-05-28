@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Binary Tree Zigzag Level Order Traversal](md/Binary Tree Zigzag Level Order Traversal.md) - 2014-05-28
 - [Insert Interval](md/Insert Interval.md) - 2014-05-28
 - [Merge Two Sorted Lists](md/Merge Two Sorted Lists.md) - 2014-05-27
 - [Remove Duplicates from Sorted List](md/Remove Duplicates from Sorted List.md) - 2014-05-27
