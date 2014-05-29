@@ -29,7 +29,7 @@ return its zigzag level order traversal as:
 
 ### Solution
 
-Get the BFS traversal of the tree according to layer, reverse the list of given layers
+Get the BFS traversal of the tree according to layer, reverse the list of given layers.
 
 ### Code
 
