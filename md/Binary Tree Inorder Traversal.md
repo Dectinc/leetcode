@@ -25,7 +25,7 @@ __Note:__ Recursive solution is trivial, could you do it iteratively?
 
 ### Code
 
-``` java	
+``` java
 /**
  * Definition for binary tree
  * public class TreeNode {
@@ -47,6 +47,40 @@ public class Solution {
         return list;
     }
 }
+```
+
+``` python
+# Definition for a  binary tree node
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    # @param root, a tree node
+    # @return a list of integers
+    def inorderTraversal(self, root):
+        if root is None:
+            return []
+        nodes = []
+        traversal = []
+        pointer = root
+        while pointer is not None:
+            nodes.append(pointer)
+            if pointer.left is not None:
+                pointer = pointer.left
+            else:
+                try:
+                    pointer = nodes.pop()
+                    traversal.append(pointer.val)
+                    while pointer.right is None:
+                        pointer = nodes.pop()
+                        traversal.append(pointer.val)
+                    pointer = pointer.right
+                except:
+                    break
+        return traversal
 ```
 
 ### Refinement

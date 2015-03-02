@@ -8,6 +8,8 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Binary Tree Inorder Traversal](md/Binary Tree Inorder Traversal.md) - update 2015-03-02 - 2014-05-23
+- [Binary Tree Preorder Traversal](md/Binary Tree Preorder Traversal.md) - 2015-03-02
 - [Linked List Cycle](md/Linked List Cycle.md) - 2015-03-02
 - [Excel Sheet Column Number](md/Excel Sheet Column Number.md) - 2015-03-02
 - [Excel Sheet Column Title](md/Excel Sheet Column Title.md) - 2015-03-02
@@ -18,7 +20,6 @@ Dectinc_Chen
 - [Remove Duplicates from Sorted List](md/Remove Duplicates from Sorted List.md) - 2014-05-27
 - [Climbing Stairs](md/Climbing Stairs.md) - 2014-05-27
 - [Integer to Roman](md/Integer to Roman.md) - 2014-05-26
-- [Binary Tree Inorder Traversal](md/Binary Tree Inorder Traversal.md) - 2014-05-23
 - [Search in Rotated Sorted Array II](md/Search in Rotated Sorted Array II.md) - 2014-05-22
 - [Search in Rotated Sorted Array](md/Search in Rotated Sorted Array.md) - 2014-05-22
 - [Regular expression matching](md/Regular expression matching.md) - 2014-05-22
