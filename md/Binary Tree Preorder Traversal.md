@@ -45,14 +45,14 @@ class Solution:
         pointer = root
         while pointer is not None:
             if pointer.right is not None:
-                nodes.insert(0, pointer.right)
+                nodes.append(pointer.right)
             traversal.append(pointer.val)
             if pointer.left is not None:
                 pointer = pointer.left
             else:
                 if len(nodes) == 0:
                     break
-                pointer = nodes.pop(0)
+                pointer = nodes.pop()
         return traversal
 
 ```
