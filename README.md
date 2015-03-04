@@ -8,6 +8,8 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [N-Queens II](md/N-Queens II.md) - 2015-03-03
+- [N-Queens](md/N-Queens.md) - 2015-03-03
 - [Populating Next Right Pointers in Each Node](md/Populating Next Right Pointers in Each Node.md) - 2015-03-03
 - [Binary Tree Postorder Traversal](md/Binary Tree Postorder Traversal.md) - 2015-03-02
 - [Binary Tree Inorder Traversal](md/Binary Tree Inorder Traversal.md) - update 2015-03-02 - 2014-05-23
