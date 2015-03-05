@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Longest Palindromic Substring](md/Longest Palindromic Substring.md) - 2015-03-05
 - [Maximum Subarray](md/Maximum Subarray.md) - 2015-03-04
 - [N-Queens II](md/N-Queens II.md) - 2015-03-03
 - [N-Queens](md/N-Queens.md) - 2015-03-03
