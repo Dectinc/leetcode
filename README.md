@@ -8,6 +8,8 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Interleaving String](md/Interleaving String.md) - 2015-03-06
+- [Palindrome Number](md/Palindrome Number.md) - 2015-03-05
 - [ZigZag Conversion](md/ZigZag Conversion.md) - 2015-03-05
 - [Longest Palindromic Substring](md/Longest Palindromic Substring.md) - 2015-03-05
 - [Maximum Subarray](md/Maximum Subarray.md) - 2015-03-04
