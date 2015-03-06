@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [3Sum](md/3Sum.md) - 2015-03-06
 - [Container With Most Water](md/Container With Most Water.md) - 2015-03-06
 - [String to Integer (atoi)](md/String to Integer (atoi).md) - 2015-03-06
 - [Valid Number](md/Valid Number.md) - 2015-03-06
