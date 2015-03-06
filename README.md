@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [String to Integer (atoi)](md/String to Integer (atoi).md) - 2015-03-06
 - [Valid Number](md/Valid Number.md) - 2015-03-06
 - [Interleaving String](md/Interleaving String.md) - 2015-03-06
 - [Palindrome Number](md/Palindrome Number.md) - 2015-03-05
