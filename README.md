@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Valid Number](md/Valid Number.md) - 2015-03-06
 - [Interleaving String](md/Interleaving String.md) - 2015-03-06
 - [Palindrome Number](md/Palindrome Number.md) - 2015-03-05
 - [ZigZag Conversion](md/ZigZag Conversion.md) - 2015-03-05
