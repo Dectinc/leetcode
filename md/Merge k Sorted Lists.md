@@ -9,6 +9,41 @@ Merge _k_ sorted linked lists and return it as one sorted list. Analyze and desc
 
 ### Code
 
+- 184ms
+
+``` Python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+# @param a list of ListNode
+# @return a ListNode
+    def mergeKLists(self, lists):
+        if len(lists) == 0:
+            return None
+        elif len(lists) == 1:
+            return lists[0]
+        else:
+            left = len(lists) / 2;
+            pl = self.mergeKLists(lists[0:left])
+            pr = self.mergeKLists(lists[left:])
+            result = ListNode(-1)
+            p = result
+            while pl is not None or pr is not None:
+                if pr is None or (pl is not None and pl.val < pr.val):
+                    p.next = pl
+                    pl = pl.next
+                else:
+                    p.next = pr
+                    pr = pr.next
+                p = p.next
+        return result.next
+```
+
+
 - 1393ms
 
 ``` Python
