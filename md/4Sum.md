@@ -18,6 +18,9 @@ __Note__:
 
 ### Solution
 
+important judgment:
+- num[p4] < target / 4
+- num[p1] > target / 4
 
 ### Code
 
@@ -32,15 +35,19 @@ class Solution:
         p4 = len(num) - 1
         last4 = num[p4] - 1
         while p4 > 2:
+            p1 = 0
+            last1 = num[p1]-1
             if num[p4] == last4:
                 p4 -= 1
                 continue
-            p1 = 0
-            last1 = num[p1]-1
+            if num[p4] < target / 4:
+                break
             while p1 < p4-2:
                 if num[p1] == last1:
                     p1 += 1
                     continue
+                if num[p1] > target / 4:
+                    break
                 t = target - num[p1] - num[p4]
                 p2 = p1+1
                 p3 = p4-1
