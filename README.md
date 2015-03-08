@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Valid Parentheses](md/Valid Parentheses.md) - 2015-03-08
 - [Remove Nth Node From End of List](md/Remove Nth Node From End of List.md) - 2015-03-08
 - [4Sum](md/4Sum.md) - 2015-03-08
 - [3Sum Closest](md/3Sum Closest.md) - 2015-03-06
