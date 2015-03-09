@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Divide Two Integers](md/Divide Two Integers.md) - 2015-03-09
 - [Implement strStr()](md/Implement strStr().md) - 2015-03-09
 - [Remove Element](md/Remove Element.md) - 2015-03-09
 - [Remove Duplicates from Sorted Array](md/Remove Duplicates from Sorted Array.md) - 2015-03-09
