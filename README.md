@@ -8,6 +8,9 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Remove Element](md/Remove Element.md) - 2015-03-09
+- [Remove Duplicates from Sorted Array](md/Remove Duplicates from Sorted Array.md) - 2015-03-09
+- [Reverse Nodes in k-Group](md/Reverse Nodes in k-Group.md) - 2015-03-09
 - [Merge k Sorted Lists](md/Merge k Sorted Lists.md) - 2015-03-08
 - [Valid Parentheses](md/Valid Parentheses.md) - 2015-03-08
 - [Remove Nth Node From End of List](md/Remove Nth Node From End of List.md) - 2015-03-08
