@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Next Permutation](md/Next Permutation.md) - 2015-03-10
 - [Substring with Concatenation of All Words](md/Substring with Concatenation of All Words.md) - 2015-03-10
 - [Divide Two Integers](md/Divide Two Integers.md) - 2015-03-09
 - [Implement strStr()](md/Implement strStr().md) - 2015-03-09
