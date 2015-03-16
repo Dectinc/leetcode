@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [First Missing Positive](md/First Missing Positive.md) - 2015-03-16
 - [Combination Sum II](md/Combination Sum II.md) - 2015-03-16
 - [Combination Sum](md/Combination Sum.md) - 2015-03-16
 - [Valid Sudoku](md/Valid Sudoku.md) - 2015-03-10
