@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Combination Sum](md/Combination Sum.md) - 2015-03-16
 - [Valid Sudoku](md/Valid Sudoku.md) - 2015-03-10
 - [Search for a Range](md/Search for a Range.md) - 2015-03-10
 - [Longest Valid Parentheses](md/Longest Valid Parentheses.md) - 2015-03-10

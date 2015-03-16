@@ -12,9 +12,6 @@ class Solution:
         z = self.getBoxIndex(x, y)
         free_box[z][num] = not free_box[z][num]
 
-    def putNumberInPosition(self, x, y, num, board):
-        board[x] = board[x][:y] + str(num) + board[x][y+1:]
-
     def isPositionValid(self, x, y, num):
         return free_col[x][num] and free_row[y][num] and free_box[self.getBoxIndex(x, y)][num]
 
@@ -47,6 +44,9 @@ class Solution:
                 if num != '.':
                     self.togglePosition(i, j, int(num))
         self.solveSudokuRecursive(board)
+
+    def putNumberInPosition(self, x, y, num, board):
+        board[x] = board[x][:y] + [str(num)] + board[x][y+1:]
 
 
 if __name__ == '__main__':
