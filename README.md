@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Number of 1 Bits](md/Number of 1 Bits.md) - 2015-03-17
 - [Rotate Array](md/Rotate Array.md) - 2015-03-17
 - [Multiply Strings](md/Multiply Strings.md) - 2015-03-16
 - [First Missing Positive](md/First Missing Positive.md) - 2015-03-16
