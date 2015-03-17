@@ -21,6 +21,7 @@ Here is an example of version numbers ordering:
 ### Code
 
 ``` Python
+# version number like '.0.0.1' not considered
 class Solution:
     # @param version1, a string
     # @param version2, a string
