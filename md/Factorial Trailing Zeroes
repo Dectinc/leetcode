@@ -1,0 +1,27 @@
+## [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)
+
+### Problem
+
+Given an integer n, return the number of trailing zeroes in n!.
+
+__Note:__ Your solution should be in logarithmic time complexity.
+
+
+### Solution
+
+
+### Code
+
+``` Python
+class Solution:
+    # @return an integer
+    def trailingZeroes(self, n):
+        res = 0
+        base = 5
+        while n >= base:
+            res += n/base
+            base *= 5
+        return res
+```
+
+### Refinement

@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Factorial Trailing Zeroes](md/Factorial Trailing Zeroes.md) - 2015-03-17
 - [Number of 1 Bits](md/Number of 1 Bits.md) - 2015-03-17
 - [Rotate Array](md/Rotate Array.md) - 2015-03-17
 - [Multiply Strings](md/Multiply Strings.md) - 2015-03-16
