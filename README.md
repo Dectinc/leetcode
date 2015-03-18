@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Length of Last Word](md/Length of Last Word.md) - 2015-03-19
 - [Add Binary](md/Add Binary.md) - 2015-03-19
 - [Merge Sorted Array](md/Merge Sorted Array.md) - 2015-03-19
 - [Binary Tree Level Order Traversal](md/Binary Tree Level Order Traversal.md) - 2015-03-19
