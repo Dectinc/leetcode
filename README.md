@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Path Sum](md/Path Sum.md) - 2015-03-19
 - [Pascal's Triangle II](md/Pascal's Triangle II.md) - 2015-03-18
 - [Min Stack](md/Min Stack.md) - 2015-03-18
 - [Intersection of Two Linked Lists](md/Intersection of Two Linked Lists.md) - 2015-03-18
