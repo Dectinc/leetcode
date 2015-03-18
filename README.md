@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Intersection of Two Linked Lists](md/Intersection of Two Linked Lists.md) - 2015-03-18
 - [Reverse Bits](md/Reverse Bits.md) - 2015-03-18
 - [Compare Version Numbers](md/Compare Version Numbers.md) - 2015-03-18
 - [Majority Element](md/Majority Element.md) - 2015-03-18
