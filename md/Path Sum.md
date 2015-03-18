@@ -36,17 +36,10 @@ class Solution:
     def hasPathSum(self, root, sum):
         if not root:
             return False
-        if not root.left and not root.right:
-            if sum == root.val:
-                return True
-            else:
-                return False
+        if not root.left and not root.right and sum == root.val:
+            return True
         sum = sum-root.val
-        if root.left and self.hasPathSum(root.left, sum):
-            return True
-        if root.right and self.hasPathSum(root.right, sum):
-            return True
-        return False
+        return self.hasPathSum(root.left, sum) or self.hasPathSum(root.right, sum)
 ```
 
 ### Refinement
