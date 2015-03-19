@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Largest Number](md/Largest Number.md) - 2015-03-19
 - [Jump Game II](md/Jump Game II.md) - 2015-03-19
 - [Jump Game](md/Jump Game.md) - 2015-03-19
 - [Best Time to Buy and Sell Stock IV](md/Best Time to Buy and Sell Stock IV.md) - 2015-03-19
