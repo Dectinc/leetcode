@@ -1,3 +1,34 @@
+## [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
+
+### Problem
+
+Implement wildcard pattern matching with support for `'?'` and `'*'`.
+```
+'?' Matches any single character.
+'*' Matches any sequence of characters (including the empty sequence).
+
+The matching should cover the entire input string (not partial).
+
+The function prototype should be:
+bool isMatch(const char *s, const char *p)
+
+Some examples:
+isMatch("aa","a") → false
+isMatch("aa","aa") → true
+isMatch("aaa","aa") → false
+isMatch("aa", "*") → true
+isMatch("aa", "a*") → true
+isMatch("ab", "?*") → true
+isMatch("aab", "c*a*b") → false
+```
+
+### Solution
+
+- Since the current row only depends on the previous row, we can use two rolling lists to do the dp instead of a matrix.
+
+### Code
+
+``` Python
 class Solution:
     # @param s, an input string
     # @param p, a pattern string
@@ -25,10 +56,6 @@ class Solution:
                     curRow[j] = lastRow[j - 1] and pi == s[j]
             lastRow = curRow[:]
         return curRow[lens-1]
+```
 
-
-if __name__ == '__main__':
-    sol = Solution()
-    s = 'a'
-    p = '?'
-    print sol.isMatch(s, p)
+### Refinement
