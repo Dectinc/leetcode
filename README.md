@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Jump Game](md/Jump Game.md) - 2015-03-19
 - [Best Time to Buy and Sell Stock IV](md/Best Time to Buy and Sell Stock IV.md) - 2015-03-19
 - [Repeated DNA Sequences](md/Repeated DNA Sequences.md) - 2015-03-19
 - [Length of Last Word](md/Length of Last Word.md) - 2015-03-19
