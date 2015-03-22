@@ -14,6 +14,14 @@ Dectinc_Chen
 - [Unique Paths II](md/Unique Paths II.md) - 2015-03-23
 - [Permutations II](md/Permutations II.md) - 2015-03-22
 - [Permutations](md/Permutations.md) - 2015-03-22
+- [Unique Paths](md/Unique Paths.md) - 2015-03-22
+- [Rotate List](md/Rotate List.md) - 2015-03-22
+- [Permutation Sequence](md/Permutation Sequence.md) - 2015-03-22
+- [Spiral Matrix II](md/Spiral Matrix II.md) - 2015-03-22
+- [Merge Intervals](md/Merge Intervals.md) - 2015-03-22
+- [Pow(x, n)](md/Pow(x, n).md) - 2015-03-22
+- [Anagrams](md/Anagrams.md) - 2015-03-22
+- [Rotate Image](md/Rotate Image.md) - 2015-03-22
 - [Wildcard Matching](md/Wildcard Matching.md) - 2015-03-19
 - [Largest Number](md/Largest Number.md) - 2015-03-19
 - [Jump Game II](md/Jump Game II.md) - 2015-03-19
