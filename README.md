@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Rotate List](md/Rotate List.md) - 2015-03-22
 - [Permutation Sequence](md/Permutation Sequence.md) - 2015-03-22
 - [Spiral Matrix II](md/Spiral Matrix II.md) - 2015-03-22
 - [Merge Intervals](md/Merge Intervals.md) - 2015-03-22
