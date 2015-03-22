@@ -9,6 +9,27 @@ Dectinc_Chen
 
 ## Solved Problem list
 - [Rotate Image](md/Rotate Image.md) - 2015-03-22
+- [Wildcard Matching](md/Wildcard Matching.md) - 2015-03-19
+- [Largest Number](md/Largest Number.md) - 2015-03-19
+- [Jump Game II](md/Jump Game II.md) - 2015-03-19
+- [Jump Game](md/Jump Game.md) - 2015-03-19
+- [Best Time to Buy and Sell Stock IV](md/Best Time to Buy and Sell Stock IV.md) - 2015-03-19
+- [Repeated DNA Sequences](md/Repeated DNA Sequences.md) - 2015-03-19
+- [Length of Last Word](md/Length of Last Word.md) - 2015-03-19
+- [Add Binary](md/Add Binary.md) - 2015-03-19
+- [Merge Sorted Array](md/Merge Sorted Array.md) - 2015-03-19
+- [Binary Tree Level Order Traversal](md/Binary Tree Level Order Traversal.md) - 2015-03-19
+- [Binary Tree Level Order Traversal II](md/Binary Tree Level Order Traversal II.md) - 2015-03-19
+- [Path Sum](md/Path Sum.md) - 2015-03-19
+- [Pascal's Triangle II](md/Pascal's Triangle II.md) - 2015-03-18
+- [Min Stack](md/Min Stack.md) - 2015-03-18
+- [Intersection of Two Linked Lists](md/Intersection of Two Linked Lists.md) - 2015-03-18
+- [Reverse Bits](md/Reverse Bits.md) - 2015-03-18
+- [Compare Version Numbers](md/Compare Version Numbers.md) - 2015-03-18
+- [Majority Element](md/Majority Element.md) - 2015-03-18
+- [Factorial Trailing Zeroes](md/Factorial Trailing Zeroes.md) - 2015-03-17
+- [Number of 1 Bits](md/Number of 1 Bits.md) - 2015-03-17
+- [Rotate Array](md/Rotate Array.md) - 2015-03-17
 - [Multiply Strings](md/Multiply Strings.md) - 2015-03-16
 - [First Missing Positive](md/First Missing Positive.md) - 2015-03-16
 - [Combination Sum II](md/Combination Sum II.md) - 2015-03-16
