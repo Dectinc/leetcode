@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Text Justification](md/Text Justification.md) - 2015-03-23
 - [Minimum Path Sum](md/Minimum Path Sum.md) - 2015-03-23
 - [Unique Paths II](md/Unique Paths II.md) - 2015-03-23
 - [Permutations II](md/Permutations II.md) - 2015-03-22
