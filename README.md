@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Merge Intervals](md/Merge Intervals.md) - 2015-03-22
 - [Pow(x, n)](md/Pow(x, n).md) - 2015-03-22
 - [Anagrams](md/Anagrams.md) - 2015-03-22
 - [Rotate Image](md/Rotate Image.md) - 2015-03-22
