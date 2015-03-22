@@ -32,20 +32,14 @@ class Solution:
         if k > num_permutations[n-1]:
             return None
         res = []
-        isTaken = [False] * (n)
-        def getUntaken(i):
-            for j in range(n):
-                if not isTaken[j]:
-                    i -= 1
-                    if i < 0:
-                        return j
+        candidates = range(n)
         k -= 1
         for i in range(n-2, -1, -1):
-            shouldTake = getUntaken(k/num_permutations[i])
-            res.append(shouldTake+1)
-            isTaken[shouldTake] = True
+            idx = k/num_permutations[i]
+            res.append(candidates[idx]+1)
+            del candidates[idx]
             k = k%num_permutations[i]
-        res.append(isTaken.index(False) + 1)
+        res.append(candidates[0]+1)
         return ''.join([str(a) for a in res])
 ```
 
