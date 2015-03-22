@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Anagrams](md/Anagrams.md) - 2015-03-22
 - [Rotate Image](md/Rotate Image.md) - 2015-03-22
 - [Wildcard Matching](md/Wildcard Matching.md) - 2015-03-19
 - [Largest Number](md/Largest Number.md) - 2015-03-19
