@@ -36,4 +36,16 @@ class Solution:
         return counts[m - 1][n - 1]
 ```
 
+``` Python
+class Solution:
+    # @return an integer
+    def uniquePaths(self, m, n):
+        counts = [[0] * (n+1) for j in range(m+1)]
+        counts[-1][0] = 1
+        for i in range(m):
+            for j in range(n):
+                counts[i][j] = counts[i - 1][j] + counts[i][j - 1]
+        return counts[m - 1][n - 1]
+```
+
 ### Refinement
