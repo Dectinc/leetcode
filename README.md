@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Search a 2D Matrix](md/Search a 2D Matrix.md) - 2015-03-24
 - [Set Matrix Zeroes](md/Set Matrix Zeroes.md) - 2015-03-24
 - [Edit Distance](md/Edit Distance.md) - 2015-03-24
 - [Simplify Path](md/Simplify Path.md) - 2015-03-23
