@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Combinations](md/Combinations.md) - 2015-03-24
 - [Sort Colors](md/Sort Colors.md) - 2015-03-24
 - [Search a 2D Matrix](md/Search a 2D Matrix.md) - 2015-03-24
 - [Set Matrix Zeroes](md/Set Matrix Zeroes.md) - 2015-03-24
