@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Edit Distance](md/Edit Distance.md) - 2015-03-24
 - [Simplify Path](md/Simplify Path.md) - 2015-03-23
 - [Text Justification](md/Text Justification.md) - 2015-03-23
 - [Minimum Path Sum](md/Minimum Path Sum.md) - 2015-03-23
