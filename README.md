@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - update 2015-03-25 - 2014-05-03
 - [Word Search](md/Word Search.md) - 2015-03-25
 - [Subsets](md/Subsets.md) - 2015-03-24
 - [Combinations](md/Combinations.md) - 2015-03-24
@@ -116,7 +117,6 @@ Dectinc_Chen
 - [Balanced Binary Tree](md/Balanced Binary Tree.md) - 2014-05-12
 - [Generate Parentheses](md/Generate Parentheses.md) - 2014-05-08
 - [Plus One](md/Plus One.md) - 2014-05-07
-- [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - 2014-05-03
 - [Best Time to Buy and Sell Stock](md/Best Time to Buy and Sell Stock.md) - 2014-04-29
 - [Longest Substring Without Repeating Characters](md/Longest Substring Without Repeating Characters.md) - 2014-04-24
 - [Single Number II](md/Single Number II.md) - 2013-04-24
