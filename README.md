@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Word Search](md/Word Search.md) - 2015-03-25
 - [Subsets](md/Subsets.md) - 2015-03-24
 - [Combinations](md/Combinations.md) - 2015-03-24
 - [Sort Colors](md/Sort Colors.md) - 2015-03-24
