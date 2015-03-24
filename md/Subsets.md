@@ -30,6 +30,8 @@ If __S__ = `[1,2,3]`, a solution is:
 
 ### Code
 
+- recursive
+
 ``` Python
 class Solution:
     def __init__(self):
@@ -61,7 +63,24 @@ class Solution:
             current.pop()
             used[i] = False
         return self.res
+```
 
+- non-recursive
+``` Python
+class Solution:
+    # @param S, a list of integer
+    # @return a list of lists of integer
+    def subsets(self, S):
+        res = [[]]
+        S.sort()
+        for s in S:
+            tmp = []
+            for subset in res:
+                aSet = subset[:]
+                aSet.append(s)
+                tmp.append(aSet)
+            res.extend(tmp)
+        return res
 ```
 
 ### Refinement
