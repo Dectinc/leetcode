@@ -4,7 +4,7 @@
 # @author   dectinc@icloud.com
 # @date     2015-03-30 22:49
 
-class Solution:
+class Solution1:
     # @param height, a list of integer
     # @return an integer
     def largestRectangleArea(self, height, begin=0, end=-1):
@@ -42,8 +42,37 @@ class Solution:
         return maxArea
 
 
+class Solution:
+    # @param height, a list of integer
+    # @return an integer
+    def largestRectangleArea(self, height):
+        if not height or len(height) == 0:
+            return 0
+        stack = []
+        maxArea = 0
+        i = 0
+
+        while i < len(height):
+            if len(stack) == 0 or height[i] > height[stack[-1]]:
+                stack.append(i)
+                i += 1
+            else:
+                top = stack[-1]
+                stack.pop()
+                maxArea = max(maxArea, height[top] * (
+                    i if len(stack) == 0 else i - stack[-1] - 1))
+
+        while len(stack) > 0:
+            top = stack[-1]
+            stack.pop()
+            maxArea = max(maxArea, height[top] * (
+                i if len(stack) == 0 else i - stack[-1] - 1))
+
+        return maxArea
+
+
 if __name__ == '__main__':
     sol = Solution()
-    height = [1,2,2,2]
+    height = [4,2]
     print sol.largestRectangleArea(height)
     

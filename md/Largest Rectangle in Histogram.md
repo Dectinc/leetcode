@@ -20,9 +20,10 @@ return `10`.
 
 ### Solution
 
-Divide and conquer
 
 ### Code
+
+- Divide and conquer
 
 ``` Python
 class Solution:
@@ -60,6 +61,36 @@ class Solution:
                     left -= 1
                 else:
                     right += 1
+        return maxArea
+```
+
+- Stack
+
+``` Python
+class Solution:
+    # @param height, a list of integer
+    # @return an integer
+    def largestRectangleArea(self, height):
+        if not height or len(height) == 0:
+            return 0
+        stack = []
+        maxArea = 0
+        i = 0
+        
+        while i < len(height):
+            if len(stack) == 0 or height[i] > height[stack[-1]]:
+                stack.append(i)
+                i += 1
+            else:
+                top = stack[-1]
+                stack.pop()
+                maxArea = max(maxArea, height[top] * (i if len(stack)==0 else i-stack[-1]-1))
+        
+        while len(stack) > 0:
+            top = stack[-1]
+            stack.pop()
+            maxArea = max(maxArea, height[top] * (i if len(stack)==0 else i-stack[-1]-1))
+        
         return maxArea
 ```
 
