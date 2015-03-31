@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Maximal Rectangle](md/Maximal Rectangle.md) - 2015-04-01
 - [Largest Rectangle in Histogram](md/Largest Rectangle in Histogram.md) - 2015-03-31
 - [Remove Duplicates from Sorted List II](md/Remove Duplicates from Sorted List II.md) - 2015-03-25
 - [Remove Duplicates from Sorted Array II](md/Remove Duplicates from Sorted Array II.md) - update 2015-03-25 - 2014-05-03
