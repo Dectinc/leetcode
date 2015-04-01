@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Validate Binary Search Tree](md/Validate Binary Search Tree.md) - 2015-04-01
 - [Unique Binary Search Trees II](md/Unique Binary Search Trees II.md) - 2015-04-01
 - [Restore IP Addresses](md/Restore IP Addresses.md) - 2015-04-01
 - [Reverse Linked List II](md/Reverse Linked List II.md) - 2015-04-01
