@@ -12,7 +12,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
-    def inorderTraversal(self):
+    def inOrderTraversal(self):
         nodes = []
         traversal = []
         pointer = self
@@ -32,7 +32,7 @@ class TreeNode:
                     break
         return traversal
 
-    def preorderTraversal(self):
+    def preOrderTraversal(self):
         nodes = []
         traversal = []
         pointer = self
@@ -48,7 +48,7 @@ class TreeNode:
                 pointer = nodes.pop(0)
         return traversal
 
-    def postorderTraversal(self):
+    def postOrderTraversal(self):
         nodes = []
         traversal = []
         pointer = self
@@ -77,6 +77,41 @@ class TreeNode:
         return traversal
 
 
-if __name__ == '__main__':
-    sol = Solution()
+def constructTree(nums):
+    '''
+    construct tree from list like {10,5,15,#,#,6,20}
+    '''
+    if len(nums) == 0:
+        return None
+    root = TreeNode(nums[0])
+    curLevel = [root]
+    length = len(nums)
+    ii = 1
+    while len(curLevel) > 0 and ii < length:
+        newLevel = []
+        for node in curLevel:
+            if ii == length:
+                break
+            if nums[ii] == '#':
+                node.left = None
+            else:
+                newNode = TreeNode(nums[ii])
+                node.left = newNode
+                newLevel.append(newNode)
+            ii += 1
+            if ii == length:
+                break
+            if nums[ii] == '#':
+                node.right = None
+            else:
+                newNode = TreeNode(nums[ii])
+                node.right = newNode
+                newLevel.append(newNode)
+            ii += 1
+        curLevel = newLevel[:]
+    return root
 
+
+if __name__ == '__main__':
+    nums = [10,5,15,'#','#',6,20]
+    print constructTree(nums)

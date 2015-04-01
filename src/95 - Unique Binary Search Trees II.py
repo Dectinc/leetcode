@@ -41,4 +41,4 @@ if __name__ == '__main__':
     n = 4
     result = sol.generateTrees(n)
     for tree in result:
-        print tree.preorderTraversal()
+        print tree.preOrderTraversal()
