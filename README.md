@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Decode Ways](md/Decode Ways.md) - 2015-04-01
 - [Subsets II](md/Subsets II.md) - 2015-04-01
 - [Gray Code](md/Gray Code.md) - 2015-04-01
 - [Scramble String](md/Scramble String.md) - 2015-04-01
