@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Gray Code](md/Gray Code.md) - 2015-04-01
 - [Scramble String](md/Scramble String.md) - 2015-04-01
 - [Partition List](md/Partition List.md) - 2015-04-01
 - [Maximal Rectangle](md/Maximal Rectangle.md) - 2015-04-01
