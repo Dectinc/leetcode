@@ -1,14 +1,26 @@
-package cc.dectinc.leetcode;
+## [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 
-import cc.dectinc.leetcode.structs.TreeNode;
+### Problem
 
-import java.util.HashMap;
+Given preorder and inorder traversal of a tree, construct the binary tree.
 
+### Solution
+
+Trick: using a HashMap to storage the node index in inorder traversal.
+
+### Code
+
+``` Java
 /**
- * @author Dectinc (i@dectinc.cc)
- * @date 2015-04-02 12:41 PM
+ * Definition for binary tree
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
  */
-public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
+public class Solution {
     HashMap<Integer, Integer> indexMap = new HashMap<Integer, Integer>();
 
     public TreeNode buildTree(int[] preorder, int[] inorder) {
@@ -30,7 +42,7 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         curRoot.right = buildTree(preorder, inorder, preStart+rootIndex-inStart+1, preEnd, rootIndex+1, inEnd);
         return curRoot;
     }
-
-    public static void main(String args[]) {
-    }
 }
+```
+
+### Refinement

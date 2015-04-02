@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Construct Binary Tree from Preorder and Inorder Traversal](md/Construct Binary Tree from Preorder and Inorder Traversal.md) - 2015-04-02
 - [Recover Binary Search Tree](md/Recover Binary Search Tree.md) - 2015-04-02
 - [Validate Binary Search Tree](md/Validate Binary Search Tree.md) - 2015-04-01
 - [Unique Binary Search Trees II](md/Unique Binary Search Trees II.md) - 2015-04-01
