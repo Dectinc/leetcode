@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Convert Sorted Array to Binary Search Tree](md/Convert Sorted Array to Binary Search Tree.md) - 2015-04-02
 - [Construct Binary Tree from Inorder and Postorder Traversal](md/Construct Binary Tree from Inorder and Postorder Traversal.md) - 2015-04-02
 - [Construct Binary Tree from Preorder and Inorder Traversal](md/Construct Binary Tree from Preorder and Inorder Traversal.md) - 2015-04-02
 - [Recover Binary Search Tree](md/Recover Binary Search Tree.md) - 2015-04-02
