@@ -9,6 +9,7 @@ Dectinc_Chen
 
 ## Solved Problem list
 - [Distinct Subsequences](md/Distinct Subsequences.md) - 2015-04-03
+- [Flatten Binary Tree to Linked List](md/Flatten Binary Tree to Linked List.md) - 2015-04-02
 - [Path Sum II](md/Path Sum II.md) - 2015-04-02
 - [Convert Sorted List to Binary Search Tree](md/Convert Sorted List to Binary Search Tree.md) - 2015-04-02
 - [Convert Sorted Array to Binary Search Tree](md/Convert Sorted Array to Binary Search Tree.md) - 2015-04-02
