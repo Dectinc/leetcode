@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Distinct Subsequences](md/Distinct Subsequences.md) - 2015-04-03
 - [Path Sum II](md/Path Sum II.md) - 2015-04-02
 - [Convert Sorted List to Binary Search Tree](md/Convert Sorted List to Binary Search Tree.md) - 2015-04-02
 - [Convert Sorted Array to Binary Search Tree](md/Convert Sorted Array to Binary Search Tree.md) - 2015-04-02
