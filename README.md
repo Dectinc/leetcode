@@ -8,6 +8,8 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Triangle](md/Triangle.md) - 2015-04-06
+- [Populating Next Right Pointers in Each Node II](md/Populating Next Right Pointers in Each Node II.md) - 2015-04-05
 - [Distinct Subsequences](md/Distinct Subsequences.md) - 2015-04-03
 - [Flatten Binary Tree to Linked List](md/Flatten Binary Tree to Linked List.md) - 2015-04-02
 - [Path Sum II](md/Path Sum II.md) - 2015-04-02

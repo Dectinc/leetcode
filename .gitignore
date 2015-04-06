@@ -5,3 +5,5 @@
 *.pyc
 
 java/src/cc/dectinc/leetcode/util/Test.java
+
+*.class
