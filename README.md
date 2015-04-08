@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Word Ladder](md/Word Ladder.md) - 2015-04-09
 - [Binary Tree Maximum Path Sum](md/Binary Tree Maximum Path Sum.md) - 2015-04-07
 - [Triangle](md/Triangle.md) - 2015-04-06
 - [Populating Next Right Pointers in Each Node II](md/Populating Next Right Pointers in Each Node II.md) - 2015-04-05

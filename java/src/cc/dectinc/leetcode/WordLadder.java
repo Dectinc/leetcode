@@ -16,8 +16,87 @@ import java.util.Set;
  * 
  */
 public class WordLadder {
-
 	public int ladderLength(String start, String end, Set<String> dict) {
+		if (dict.size() == 0)
+			return 0;
+
+		dict.add(end);
+
+		LinkedList<String> wordQueue = new LinkedList<String>();
+		LinkedList<Integer> distanceQueue = new LinkedList<Integer>();
+
+		wordQueue.add(start);
+		distanceQueue.add(1);
+
+		// track the shortest path
+		int result = Integer.MAX_VALUE;
+		while (!wordQueue.isEmpty()) {
+			String currWord = wordQueue.pop();
+			Integer currDistance = distanceQueue.pop();
+
+			if (currWord.equals(end)) {
+				result = Math.min(result, currDistance);
+			}
+
+			for (int i = 0; i < currWord.length(); i++) {
+				char[] currCharArr = currWord.toCharArray();
+				for (char c = 'a'; c <= 'z'; c++) {
+					currCharArr[i] = c;
+
+					String newWord = new String(currCharArr);
+					if (dict.contains(newWord)) {
+						wordQueue.add(newWord);
+						distanceQueue.add(currDistance + 1);
+						dict.remove(newWord);
+					}
+				}
+			}
+		}
+
+		if (result < Integer.MAX_VALUE)
+			return result;
+		else
+			return 0;
+	}
+
+	public int ladderLength2(String start, String end, Set<String> dict) {
+		if (dict.size() == 0) {
+			return 0;
+		}
+		int wordLength = start.length();
+		dict.add(end);
+
+		LinkedList<String> words = new LinkedList<String>();
+		words.add(start);
+		LinkedList<Integer> distances = new LinkedList<Integer>();
+		distances.add(1);
+		dict.remove(start);
+
+		while (dict.size() > 0 && !words.isEmpty()) {
+			String word = words.pop();
+			int distance = distances.pop();
+			distance++;
+			for (int i = 0; i < wordLength; i++) {
+				char[] chars = word.toCharArray();
+				for (char c = 'a'; c <= 'z'; c++) {
+					chars[i] = c;
+					String newWord = new String(chars);
+					if (dict.contains(newWord)) {
+						if (newWord.equals(end)) {
+							return distance;
+						}
+						words.add(newWord);
+						distances.add(distance);
+						dict.remove(newWord);
+					}
+				}
+			}
+		}
+
+		return 0;
+	}
+
+	public int ladderLength1(String start, String end, Set<String> dict) {
 		if (dict.size() == 0) {
 			return 0;
 		}
@@ -35,9 +114,6 @@ public class WordLadder {
 			String word = words.poll();
 			rest.remove(word);
 			for (String string : rest) {
-				if (!rest.contains(string)) {
-					continue;
-				}
 				if (isNeighbour(word, end, wordLength)) {
 					return visited.get(word) + 1;
 				}
@@ -53,8 +129,10 @@ public class WordLadder {
 
 	private boolean isNeighbour(String word, String another, int wordLength) {
 		boolean flag = true;
+		char[] a = word.toCharArray();
+		char[] b = another.toCharArray();
 		for (int i = 0; i < wordLength; i++) {
-			if (word.charAt(i) == another.charAt(i)) {
+			if (a[i] == b[i]) {
 				continue;
 			}
 			if (flag == false) {
@@ -68,11 +146,11 @@ public class WordLadder {
 
 	public static void main(String[] args) {
 		// System.out.println(new WordLadder().isNeighbour("hot", "hit", 3));
-		String start = "hit";
-		String end = "cog";
-		String[] strings = new String[] { "hot", "dot", "dog", "lot", "log" };
+		String start = "a";
+		String end = "c";
+		String[] strings = new String[] { "a", "b", "c" };
 		Set<String> dict = new HashSet<String>();
 		dict.addAll(Arrays.asList(strings));
-		System.out.println(new WordLadder().ladderLength(start, end, dict));
+		System.out.println(new WordLadder().ladderLength2(start, end, dict));
 	}
 }
