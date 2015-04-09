@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Sum Root to Leaf Numbers](md/Sum Root to Leaf Numbers.md) - 2015-04-10
 - [Word Ladder II](md/Word Ladder II.md) - 2015-04-10
 - [Longest Consecutive Sequence](md/Longest Consecutive Sequence.md) - 2015-04-09
 - [Word Ladder](md/Word Ladder.md) - 2015-04-09
