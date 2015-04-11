@@ -4,6 +4,7 @@
 
 package cc.dectinc.leetcode;
 
+
 /**
  * @author chenshijiang
  * @date Apr 10, 2015 5:10:48 PM
@@ -11,8 +12,18 @@ package cc.dectinc.leetcode;
  */
 public class SurroundedRegions {
     public void solve(char[][] board) {
-        
+    	int numRows = board.length;
+    	if (numRows == 0) {
+    		return;
+    	}
+    	int numColumn = board[0].length;
+    	for (int i = 0; i < numRows; i++) {
+    		if (board[i][0] == 'O') {
+    			
+    		}
+    	}
     }
+    
 
 	/**
 	 * @param args
