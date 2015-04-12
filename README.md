@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Palindrome Partitioning II](md/Palindrome Partitioning II.md) - 2015-04-12
 - [Palindrome Partitioning](md/Palindrome Partitioning.md) - 2015-04-12
 - [Sum Root to Leaf Numbers](md/Sum Root to Leaf Numbers.md) - 2015-04-10
 - [Word Ladder II](md/Word Ladder II.md) - 2015-04-10
