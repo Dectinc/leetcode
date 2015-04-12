@@ -7,7 +7,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 import cc.dectinc.api.structs.TreeNode;
-import cc.dectinc.api.utils.TreeUtil;
 
 /**
  * @author Dectinc
@@ -43,7 +42,7 @@ public class SumRootToLeafNumbers {
 
 	public static void main(String[] args) {
 		SumRootToLeafNumbers sol = new SumRootToLeafNumbers();
-		TreeNode root = TreeUtil.constructTreeWithLevelTraversal(new Integer[] {
+		TreeNode root = TreeNode.constructTreeWithLevelTraversal(new Integer[] {
 				1, 2, 3 });
 		System.out.println(sol.sumNumbers(root));
 	}

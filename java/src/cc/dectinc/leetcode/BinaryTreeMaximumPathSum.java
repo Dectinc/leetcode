@@ -5,7 +5,6 @@
 package cc.dectinc.leetcode;
 
 import cc.dectinc.api.structs.TreeNode;
-import cc.dectinc.api.utils.TreeUtil;
 
 /**
  * @author chenshijiang
@@ -40,7 +39,7 @@ public class BinaryTreeMaximumPathSum {
 
 	public static void main(String[] args) {
 		BinaryTreeMaximumPathSum sol = new BinaryTreeMaximumPathSum();
-		TreeNode root = TreeUtil.constructTreeWithLevelTraversal(new Integer[] { -3 });
+		TreeNode root = TreeNode.constructTreeWithLevelTraversal(new Integer[] { -3 });
 		System.out.println(sol.maxPathSum(root));
 	}
 }
