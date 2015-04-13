@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Candy](md/Candy.md) - 2015-04-13
 - [Gas Station](md/Gas Station.md) - 2015-04-13
 - [Clone Graph](md/Clone Graph.md) - 2015-04-12
 - [Palindrome Partitioning II](md/Palindrome Partitioning II.md) - 2015-04-12
