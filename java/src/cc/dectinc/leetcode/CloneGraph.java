@@ -55,6 +55,5 @@ public class CloneGraph {
 	}
 
 	public static void main(String[] args) {
-		CloneGraph col = new CloneGraph();
 	}
 }
