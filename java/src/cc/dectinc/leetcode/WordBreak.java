@@ -16,6 +16,30 @@ public class WordBreak {
 	private int maxLength = -1;
 
 	public boolean wordBreak(String s, Set<String> dict) {
+		if (s.length() == 0) {
+			return true;
+		}
+		if (dict.size() == 0) {
+			return false;
+		}
+
+		int length = s.length();
+		boolean[] flags = new boolean[length + 1];
+		flags[0] = true;
+
+		for (int i = 1; i < length + 1; i++) {
+			for (int j = 0; j < i; j++) {
+				if (flags[j] && dict.contains(s.subSequence(j, i))) {
+					flags[i] = true;
+					break;
+				}
+			}
+		}
+
+		return flags[length];
+	}
+
+	public boolean wordBreakOrigin(String s, Set<String> dict) {
 		if (dict.size() == 0) {
 			return false;
 		}
