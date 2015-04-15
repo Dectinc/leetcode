@@ -1,3 +1,4 @@
+package cc.dectinc.leetcode;
 /**
  * 
  */
