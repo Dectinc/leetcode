@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Word Break II](md/Word Break II.md) - 2015-04-15
 - [Word Break](md/Word Break.md) - 2015-04-15
 - [Linked List Cycle II](md/Linked List Cycle II.md) - 2015-04-14
 - [Copy List with Random Pointer](md/Copy List with Random Pointer.md) - 2015-04-13
