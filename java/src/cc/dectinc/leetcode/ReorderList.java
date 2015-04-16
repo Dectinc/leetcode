@@ -12,6 +12,9 @@ import cc.dectinc.api.structs.ListNode;
  */
 public class ReorderList {
 	public void reorderList(ListNode head) {
+		if (head == null || head.next == null) {
+			return;
+		}
 		// get last half using fast and slow
 		ListNode p = head, q = head.next;
 		while (q != null && q.next != null) {
