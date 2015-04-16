@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Max Points on a Line](md/Max Points on a Line.md) - 2015-04-16
 - [Sort List](md/Sort List.md) - 2015-04-16
 - [Insertion Sort List](md/Insertion Sort List.md) - 2015-04-16
 - [LRU Cache](md/LRU Cache.md) - 2015-04-15
