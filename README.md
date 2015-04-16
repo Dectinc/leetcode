@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Insertion Sort List](md/Insertion Sort List.md) - 2015-04-16
 - [LRU Cache](md/LRU Cache.md) - 2015-04-15
 - [Reorder List](md/Reorder List.md) - 2015-04-15
 - [Word Break II](md/Word Break II.md) - 2015-04-15
