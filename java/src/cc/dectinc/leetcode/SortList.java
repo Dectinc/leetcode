@@ -50,6 +50,7 @@ public class SortList {
 		return dummy.next;
 	}
 
+	@SuppressWarnings("unused")
 	private void quickSortList(ListNode head, ListNode tail) {
 		if (head == null || head.next == null) {
 			return;
@@ -76,6 +77,7 @@ public class SortList {
 		quickSortList(dummy2.next, tail);
 	}
 
+	@SuppressWarnings("unused")
 	private void swapNodes(ListNode p, ListNode q) {
 		ListNode r = p;
 		p = q;
@@ -84,8 +86,7 @@ public class SortList {
 
 	public static void main(String[] args) {
 		SortList sol = new SortList();
-		ListNode head = ListNode
-				.constructList(new Integer[] { 5, 1, 4, 0, 3, 2 });
+		ListNode head = ListNode.constructList(new Integer[] { 5, 1, 4, 0, 3, 2 });
 		System.out.println(sol.sortList(head));
 		// ListNode head1 = ListNode.constructList(new Integer[] { 1, 3, 5 });
 		// ListNode head2 = ListNode.constructList(new Integer[] { 1, 2, 4, 6
