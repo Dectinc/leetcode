@@ -16,6 +16,7 @@ import java.util.Stack;
  * 
  */
 public class EvaluateReversePolishNotation {
+
 	public int evalRPN(List<String> tokens) {
 		String[] operatorStrings = { "+", "-", "*", "/" };
 		Set<String> operators = new HashSet<String>();
