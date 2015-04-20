@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Find Minimum in Rotated Sorted Array](md/Find Minimum in Rotated Sorted Array.md) - 2015-04-20
 - [Maximum Product Subarray](md/Maximum Product Subarray.md) - 2015-04-20
 - [Evaluate Reverse Polish Notation](md/Evaluate Reverse Polish Notation.md) - 2015-04-17
 - [Max Points on a Line](md/Max Points on a Line.md) - 2015-04-16
