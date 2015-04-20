@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Binary Search Tree Iterator](md/Binary Search Tree Iterator.md) - 2015-04-20
 - [Fraction to Recurring Decimal](md/Fraction to Recurring Decimal.md) - 2015-04-20
 - [Maximum Gap](md/Maximum Gap.md) - 2015-04-20
 - [Find Peak Element](md/Find Peak Element.md) - 2015-04-20
