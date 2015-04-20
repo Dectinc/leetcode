@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [House Robber](md/House Robber.md) - 2015-04-21
 - [Dungeon Game](md/Dungeon Game.md) - 2015-04-21
 - [Binary Search Tree Iterator](md/Binary Search Tree Iterator.md) - 2015-04-20
 - [Fraction to Recurring Decimal](md/Fraction to Recurring Decimal.md) - 2015-04-20
