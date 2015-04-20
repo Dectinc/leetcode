@@ -11,6 +11,24 @@ Given a list of non-negative integers representing the amount of money of each h
 
 ### Code
 
+```Java
+public class Solution {
+	public int rob(int[] num) {
+		int n = num.length;
+
+		int last = 0;
+		int pre = 0;
+		for (int i = 0; i < n; i++) {
+			int cur = Math.max(last + num[i], pre);
+			last = pre;
+			pre = cur;
+		}
+
+		return pre;
+	}
+}
+```
+
 ``` Java
 public class Solution {
 	public int rob(int[] num) {

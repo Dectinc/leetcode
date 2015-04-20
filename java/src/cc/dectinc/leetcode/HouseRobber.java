@@ -11,17 +11,10 @@ package cc.dectinc.leetcode;
 public class HouseRobber {
 	public int rob(int[] num) {
 		int n = num.length;
-		if (n == 0) {
-			return 0;
-		} else if (n == 1) {
-			return num[0];
-		} else if (n == 2) {
-			return Math.max(num[0], num[1]);
-		}
 
-		int last = num[0];
-		int pre = Math.max(num[0], num[1]);
-		for (int i = 2; i < n; i++) {
+		int last = 0;
+		int pre = 0;
+		for (int i = 0; i < n; i++) {
 			int cur = Math.max(last + num[i], pre);
 			last = pre;
 			pre = cur;
