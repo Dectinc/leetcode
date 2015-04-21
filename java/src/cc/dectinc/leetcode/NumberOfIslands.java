@@ -4,6 +4,9 @@
 
 package cc.dectinc.leetcode;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @author chenshijiang
  * @date Apr 21, 2015 3:47:11 PM
@@ -12,8 +15,58 @@ package cc.dectinc.leetcode;
 public class NumberOfIslands {
 	private final char landChar = '1';
 	private final char waterChar = '0';
+	private int m, n;
+	private final int[][] bounds = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
 
 	public int numIslands(char[][] grid) {
+		m = grid.length;
+		if (m == 0) {
+			return 0;
+		}
+		n = grid[0].length;
+		int result = 0;
+
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				if (grid[i][j] == landChar) {
+					result++;
+					bfs(grid, i, j);
+				}
+			}
+		}
+
+		return result;
+	}
+
+	private void bfs(char[][] grid, int x, int y) {
+		Queue<Integer> abscissa = new LinkedList<Integer>();
+		Queue<Integer> ordinate = new LinkedList<Integer>();
+		abscissa.add(x);
+		ordinate.add(y);
+		while (!abscissa.isEmpty()) {
+			x = abscissa.poll();
+			y = ordinate.poll();
+			for (int i = 0; i < 4; i++) {
+				int tmpX = x + bounds[i][0];
+				int tmpY = y + bounds[i][1];
+				if (tmpX >= 0 && tmpX < m && tmpY >= 0 && tmpY < n
+						&& grid[tmpX][tmpY] == landChar) {
+					grid[tmpX][tmpY] = waterChar;
+					abscissa.add(tmpX);
+					ordinate.add(tmpY);
+				}
+			}
+		}
+	}
+
+	/**
+	 * This method is not able to handle cases while there are circle islands.
+	 * 
+	 * @param grid
+	 *            2d grid map
+	 * @return number of islands
+	 */
+	public int numIslandsFailed(char[][] grid) {
 		int m = grid.length;
 		if (m == 0) {
 			return 0;
@@ -36,11 +89,13 @@ public class NumberOfIslands {
 			for (int j = 1; j < n; j++) {
 				char c = grid[i][j];
 				if (c == landChar) {
-					if (grid[i - 1][j - 1] == waterChar && grid[i - 1][j] == landChar
+					if (grid[i - 1][j - 1] == waterChar
+							&& grid[i - 1][j] == landChar
 							&& grid[i][j - 1] == landChar) {
 						result--;
 					}
-					if (grid[i - 1][j] == waterChar && grid[i][j - 1] == waterChar) {
+					if (grid[i - 1][j] == waterChar
+							&& grid[i][j - 1] == waterChar) {
 						result++;
 					}
 				}

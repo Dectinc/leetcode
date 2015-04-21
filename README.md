@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Number of Islands](md/Number of Islands.md) - 2015-04-21
 - [Binary Tree Right Side View](md/Binary Tree Right Side View.md) - 2015-04-21
 - [House Robber](md/House Robber.md) - 2015-04-21
 - [Dungeon Game](md/Dungeon Game.md) - 2015-04-21
