@@ -39,6 +39,26 @@ public class NumberOfIslands {
 	}
 
 	private void bfs(char[][] grid, int x, int y) {
+		Queue<Integer> queue = new LinkedList<Integer>();
+		queue.add(x);
+		queue.add(y);
+		while (!queue.isEmpty()) {
+			x = queue.poll();
+			y = queue.poll();
+			for (int i = 0; i < 4; i++) {
+				int tmpX = x + bounds[i][0];
+				int tmpY = y + bounds[i][1];
+				if (tmpX >= 0 && tmpX < m && tmpY >= 0 && tmpY < n
+						&& grid[tmpX][tmpY] == landChar) {
+					grid[tmpX][tmpY] = waterChar;
+					queue.add(tmpX);
+					queue.add(tmpY);
+				}
+			}
+		}
+	}
+
+	private void bfsDoubleQueue(char[][] grid, int x, int y) {
 		Queue<Integer> abscissa = new LinkedList<Integer>();
 		Queue<Integer> ordinate = new LinkedList<Integer>();
 		abscissa.add(x);
