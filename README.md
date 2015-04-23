@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Best Time to Buy and Sell Stock II](md/Best Time to Buy and Sell Stock II.md) -update 2015-04-23 - 2014-04-23
 - [Binary Tree Right Side View](md/Binary Tree Right Side View.md) - 2015-04-21
 - [House Robber](md/House Robber.md) - 2015-04-21
 - [Dungeon Game](md/Dungeon Game.md) - 2015-04-21
@@ -179,7 +180,6 @@ Dectinc_Chen
 - [Same Tree](md/Same Tree.md) - 2014-04-23
 - [Reverse Words in a String](md/Reverse Words in a String.md) - 2014-04-23
 - [Maximum Depth of Binary Tree](md/Maximum Depth of Binary Tree.md) - 2014-04-23
-- [Best Time to Buy and Sell Stock II](md/Best Time to Buy and Sell Stock II.md) - 2014-04-23
 
 
 @ Copyrights of problems belong to [Leetcode](http://oj.leetcode.com/)
