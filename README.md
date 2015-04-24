@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Reverse Integer](md/Reverse Integer.md) - update 2015-04-24 - 2014-04-23
 - [Same Tree](md/Same Tree.md) - update 2015-04-23 - 2014-04-23
 - [Reverse Words in a String](md/Reverse Words in a String.md) - update 2015-04-23 - 2014-04-23
 - [Maximum Depth of Binary Tree](md/Maximum Depth of Binary Tree.md) - update 2015-04-23 - 2014-04-23
@@ -181,7 +182,6 @@ Dectinc_Chen
 - [Single Number II](md/Single Number II.md) - 2013-04-24
 - [Spiral Matrix](md/Spiral Matrix.md) - 2014-04-24
 - [Single Number](md/Single Number.md) - 2014-04-23
-- [Reverse Integer](md/Reverse Integer.md) - 2014-04-23
 
 
 @ Copyrights of problems belong to [Leetcode](http://oj.leetcode.com/)
