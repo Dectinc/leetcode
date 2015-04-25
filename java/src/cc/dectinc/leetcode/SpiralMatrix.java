@@ -19,8 +19,31 @@ public class SpiralMatrix {
 			return result;
 		}
 		int n = matrix[0].length;
-
-		int colLeft = 0, colRight = m - 1, rowUp = 0, rowDown = n - 1;
+		int colLeft = 0, colRight = n, rowUp = 0, rowDown = m;
+		while (colLeft < colRight && rowUp < rowDown) {
+			for (int i = colLeft; i < colRight; i++) {
+				result.add(matrix[rowUp][i]);
+			}
+			if (++rowUp == rowDown) {
+				break;
+			}
+			for (int i = rowUp; i < rowDown; i++) {
+				result.add(matrix[i][colRight - 1]);
+			}
+			if (--colRight == colLeft) {
+				break;
+			}
+			for (int i = colRight - 1; i >= colLeft; i--) {
+				result.add(matrix[rowDown - 1][i]);
+			}
+			if (--rowDown == rowUp) {
+				break;
+			}
+			for (int i = rowDown - 1; i >= rowUp; i--) {
+				result.add(matrix[i][colLeft]);
+			}
+			colLeft++;
+		}
 		return result;
 	}
 

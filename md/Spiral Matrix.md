@@ -1,5 +1,7 @@
 ## [Spiral Matrix](http://oj.leetcode.com/problems/spiral-matrix/)
 
+### Problem
+
 Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
 
 For example,
@@ -16,53 +18,48 @@ Given the following matrix:
 
 You should return [1,2,3,6,9,8,7,4,5].
 
-``` java
+### Solution
+
+
+### Code
+
+``` Java
 public class Solution {
-    public ArrayList<Integer> spiralOrder(int[][] matrix) {
-        ArrayList<Integer> result = new ArrayList<Integer>();
-        
-        // when matrix is null
-        if (matrix == null)
-        {
-            return null;
-        }
-        int dimY = matrix.length;
-        // when matrix contains no elements
-        if (dimY == 0){
+    public List<Integer> spiralOrder(int[][] matrix) {
+        List<Integer> result = new LinkedList<Integer>();
+        int m = matrix.length;
+        if (m == 0) {
             return result;
         }
-        int dimX = matrix[0].length;
-        int minX = 0, minY = 0, maxX = dimX-1, maxY = dimY-1;
-        
-        while (true) {
-            int i = 0;
-            for (i = minX; i <= maxX; i++) {
-                result.add(matrix[minY][i]);
+        int n = matrix[0].length;
+        int colLeft = 0, colRight = n, rowUp = 0, rowDown = m;
+        while (colLeft < colRight && rowUp < rowDown) {
+            for (int i = colLeft; i < colRight; i++) {
+                result.add(matrix[rowUp][i]);
             }
-            if (++minY > maxY) {
+            if (++rowUp == rowDown) {
                 break;
             }
-            for (i = minY; i <= maxY; i++) {
-                result.add(matrix[i][maxX]);
+            for (int i = rowUp; i < rowDown; i++) {
+                result.add(matrix[i][colRight-1]);
             }
-            if (--maxX < minX) {
+            if (--colRight == colLeft) {
                 break;
             }
-            for (i = maxX; i >= minX; i--) {
-                result.add(matrix[maxY][i]);
+            for (int i = colRight-1; i >= colLeft; i--) {
+                result.add(matrix[rowDown-1][i]);
             }
-            if (--maxY < minY) {
+            if (--rowDown == rowUp) {
                 break;
             }
-            for (i = maxY; i >= minY; i--) {
-                result.add(matrix[i][minX]);
+            for (int i = rowDown-1; i >= rowUp; i--) {
+                result.add(matrix[i][colLeft]);
             }
-            if (++minX > maxX) {
-                break;
-            }
+            colLeft++;
         }
-        
         return result;
     }
 }
 ```
+
+### Refinement
