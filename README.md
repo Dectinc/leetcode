@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Happy Number](md/Happy Number.md) - 2015-04-28
 - [Single Number II](md/Single Number II.md) - update 2015-04-25 - 2014-04-24
 - [Spiral Matrix](md/Spiral Matrix.md) - update 2015-04-25 - 2014-04-24
 - [Single Number](md/Single Number.md) - update 2015-04-24 - 2014-04-23
