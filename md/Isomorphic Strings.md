@@ -21,6 +21,7 @@ You may assume both __s__ and __t__ have the same length.
 
 ### Solution
 
+The intuitive solution is using 2 hashtables saving the mappings of characters, but arrays can be used as a substitution as characters can only be specific values.
 
 ### Code
 
