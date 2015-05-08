@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Isomorphic Strings](md/Isomorphic Strings.md) - 2015-05-08
 - [Count Primes](md/Count Primes.md) - 2015-04-28
 - [Remove Linked List Elements](md/Remove Linked List Elements.md) - 2015-04-28
 - [Happy Number](md/Happy Number.md) - 2015-04-28
