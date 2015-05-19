@@ -9,6 +9,7 @@ Dectinc_Chen
 
 ## Solved Problem list
 - [Isomorphic Strings](md/Isomorphic Strings.md) - 2015-05-08
+- [Longest Substring Without Repeating Characters](md/Longest Substring Without Repeating Characters.md) - update 2015-04-29 - 2014-04-24
 - [Count Primes](md/Count Primes.md) - 2015-04-28
 - [Remove Linked List Elements](md/Remove Linked List Elements.md) - 2015-04-28
 - [Happy Number](md/Happy Number.md) - 2015-04-28
@@ -185,7 +186,6 @@ Dectinc_Chen
 - [Generate Parentheses](md/Generate Parentheses.md) - 2014-05-08
 - [Plus One](md/Plus One.md) - 2014-05-07
 - [Best Time to Buy and Sell Stock](md/Best Time to Buy and Sell Stock.md) - 2014-04-29
-- [Longest Substring Without Repeating Characters](md/Longest Substring Without Repeating Characters.md) - 2014-04-24
 
 
 @ Copyrights of problems belong to [Leetcode](http://oj.leetcode.com/)

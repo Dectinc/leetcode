@@ -1,8 +1,8 @@
 package cc.dectinc.leetcode;
 
-import java.util.HashMap;
-
 import cc.dectinc.api.structs.TreeNode;
+
+import java.util.HashMap;
 
 /**
  * @author Dectinc (i@dectinc.cc)

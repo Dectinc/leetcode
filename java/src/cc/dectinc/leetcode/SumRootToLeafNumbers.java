@@ -3,10 +3,10 @@
  */
 package cc.dectinc.leetcode;
 
+import cc.dectinc.api.structs.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
-
-import cc.dectinc.api.structs.TreeNode;
 
 /**
  * @author Dectinc

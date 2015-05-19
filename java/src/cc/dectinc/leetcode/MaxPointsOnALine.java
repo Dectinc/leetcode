@@ -3,9 +3,9 @@
  */
 package cc.dectinc.leetcode;
 
-import java.util.HashMap;
-
 import cc.dectinc.api.structs.Point;
+
+import java.util.HashMap;
 
 /**
  * @author Dectinc

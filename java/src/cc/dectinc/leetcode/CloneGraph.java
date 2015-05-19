@@ -4,12 +4,12 @@
 
 package cc.dectinc.leetcode;
 
+import cc.dectinc.api.structs.UndirectedGraphNode;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
-
-import cc.dectinc.api.structs.UndirectedGraphNode;
 
 /**
  * @author chenshijiang

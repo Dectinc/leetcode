@@ -3,9 +3,9 @@
  */
 package cc.dectinc.leetcode;
 
-import java.util.Stack;
-
 import cc.dectinc.api.structs.TreeNode;
+
+import java.util.Stack;
 
 /**
  * @author Dectinc

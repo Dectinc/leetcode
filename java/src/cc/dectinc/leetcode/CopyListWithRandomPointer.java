@@ -3,9 +3,9 @@
  */
 package cc.dectinc.leetcode;
 
-import java.util.HashMap;
-
 import cc.dectinc.api.structs.RandomListNode;
+
+import java.util.HashMap;
 
 /**
  * @author Dectinc
