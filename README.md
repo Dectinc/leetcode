@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Implement Trie (Prefix Tree)](md/Implement Trie (Prefix Tree).md) - 2015-07-07
 - [Course Schedule](md/Course Schedule.md) - 2015-07-07
 - [Reverse Linked List](md/Reverse Linked List) - 2015-07-07
 - [Isomorphic Strings](md/Isomorphic Strings.md) - 2015-05-08
