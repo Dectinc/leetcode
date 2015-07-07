@@ -34,31 +34,36 @@ __Hints:__
 ### Code
 
 ``` Python
+from collections import defaultdict
+
 class Solution:
     # @param {integer} numCourses
     # @param {integer[][]} prerequisites
     # @return {boolean}
     def canFinish(self, numCourses, prerequisites):
         preMap, degrees = self.makeMap(numCourses, prerequisites)
+        s = [x for x in xrange(numCourses) if degrees[x] == 0]
         for _i in xrange(numCourses):
-            if 0 not in degrees:
+            if len(s) == 0:
                 return False
-            courseId = degrees.index(0)
+            courseId = s.pop()
             degrees[courseId] = -1
             for v in preMap.get(courseId, set()):
-                degrees[v] -= 1
+                if degrees[v] == 1:
+                    s.append(v)
+                else:
+                    degrees[v] -= 1
         return True
 
     def makeMap(self, numCourses, prerequisites):
         degrees = [0] * numCourses
-        preMap = {}
-        edges = sorted(prerequisites)
-        dedupEdges = [edges[i] for i in xrange(len(edges)) if i == 0 or edges[i] != edges[i-1]]
-        for v, u in dedupEdges:
-            vset = preMap.get(u, set())
-            vset.add(v)
-            preMap[u] = vset
-            degrees[v] += 1
+        preMap = defaultdict(set)
+        nextMap = defaultdict(set)
+        for v, u in prerequisites:
+            preMap[u].add(v)
+            nextMap[v].add(u)
+        for k, v in nextMap.iteritems():
+            degrees[k] = len(v)
         return preMap, degrees
 ```
 
