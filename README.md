@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Course Schedule II](md/Course Schedule II.md) - 2015-07-08
 - [Minimum Size Subarray Sum](md/Minimum Size Subarray Sum.md) - 2015-07-07
 - [Implement Trie (Prefix Tree)](md/Implement Trie (Prefix Tree).md) - 2015-07-07
 - [Course Schedule](md/Course Schedule.md) - 2015-07-07
