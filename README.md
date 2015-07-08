@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [House Robber II](md/House Robber II.md) - 2015-07-08
 - [Word Search II](md/Word Search II.md) - 2015-07-08
 - [Add and Search Word - Data structure design](md/Add and Search Word - Data structure design.md) - 2015-07-08
 - [Course Schedule II](md/Course Schedule II.md) - 2015-07-08
