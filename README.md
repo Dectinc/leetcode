@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Contains Duplicate II](md/Contains Duplicate II.md) - 2015-07-08
 - [Contains Duplicate](md/Contains Duplicate.md) - 2015-07-08
 - [House Robber II](md/House Robber II.md) - 2015-07-08
 - [Word Search II](md/Word Search II.md) - 2015-07-08
