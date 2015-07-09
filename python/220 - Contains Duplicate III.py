@@ -31,6 +31,6 @@ def containsNearbyAlmostDuplicate1(nums, k, t):
 
 
 if __name__ == '__main__':
-    nums, k, t = [4,1,6,3], 100, 1
+    nums, k, t = [-1, -2], 1, -1
     print containsNearbyAlmostDuplicate(nums, k, t)
     print containsNearbyAlmostDuplicate1(nums, k, t)
