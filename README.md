@@ -8,6 +8,8 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Shortest Palindrome](md/Shortest Palindrome.md) - 2015-07-09
+- [Contains Duplicate III](md/Contains Duplicate III.md) - 2015-07-09
 - [Contains Duplicate II](md/Contains Duplicate II.md) - 2015-07-08
 - [Contains Duplicate](md/Contains Duplicate.md) - 2015-07-08
 - [House Robber II](md/House Robber II.md) - 2015-07-08
