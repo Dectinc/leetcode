@@ -46,4 +46,34 @@ class Solution:
         return nums[0]
 ```
 
+- update
+
+``` Python
+class Solution:
+    # @param {integer[]} nums
+    # @param {integer} k
+    # @return {integer}
+    def findKthLargest(self, nums, k):
+        n = len(nums)
+        for cur in xrange(k//2, -1, -1):
+            self.heapify(nums, k, cur)
+        for i in xrange(k, n):
+            if nums[i] <= nums[0]:
+                continue
+            nums[0] = nums[i]
+            self.heapify(nums, k, 0)
+        return nums[0]
+
+    def heapify(self, nums, k, cur):
+        child = 2*cur+1
+        while child < k:
+            if child < k-1 and nums[child] > nums[child+1]:
+                child += 1
+            if nums[cur] <= nums[child]:
+                return
+            nums[cur], nums[child] = nums[child], nums[cur]
+            cur = child
+            child = 2*cur + 1
+```
+
 ### Refinement
