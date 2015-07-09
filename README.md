@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Combination Sum III](md/Combination Sum III.md) - 2015-07-09
 - [Kth Largest Element in an Array](md/Kth Largest Element in an Array.md) - 2015-07-09
 - [Shortest Palindrome](md/Shortest Palindrome.md) - 2015-07-09
 - [Contains Duplicate III](md/Contains Duplicate III.md) - 2015-07-09
