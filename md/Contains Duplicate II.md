@@ -2,7 +2,7 @@
 
 ### Problem
 
-Given an array of integers and an integer _k_, find out whether there there are two distinct indices _i_ and _j_ in the array such that __nums[i] = nums[j]__ and the difference between _i_ and _j_ is at most _k_.
+Given an array of integers and an integer _k_, find out whether there there are two __distinct__ indices _i_ and _j_ in the array such that __nums[i] = nums[j]__ and the difference between _i_ and _j_ is at most _k_.
 
 ### Solution
 
