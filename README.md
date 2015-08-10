@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Invert Binary Tree](md/Invert Binary Tree.md) - 2015-08-10
 - [Search a 2D Matrix II](md/Search a 2D Matrix II.md) - 2015-08-04
 - [Combination Sum III](md/Combination Sum III.md) - 2015-07-09
 - [Kth Largest Element in an Array](md/Kth Largest Element in an Array.md) - 2015-07-09
