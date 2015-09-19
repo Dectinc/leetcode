@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Ugly Number II](md/Ugly Number II.md) - 2015-09-19
 - [Ugly Number](md/Ugly Number.md) - 2015-09-18
 - [First Bad Version](md/First Bad Version.md) - 2015-09-18
 - [Invert Binary Tree](md/Invert Binary Tree.md) - 2015-08-10
