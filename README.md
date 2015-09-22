@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Implement Stack using Queues](md/Implement Stack using Queues.md) - 2015-09-22
 - [Basic Calculator](md/Basic Calculator.md) - 2015-09-22
 - [Rectangle Area](md/Rectangle Area.md) - 2015-09-22
 - [Count Complete Tree Nodes](md/Count Complete Tree Nodes.md) - 2015-09-22
