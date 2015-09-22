@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Count Complete Tree Nodes](md/Count Complete Tree Nodes.md) - 2015-09-22
 - [Ugly Number](md/Ugly Number.md) - 2015-09-18
 - [First Bad Version](md/First Bad Version.md) - 2015-09-18
 - [Invert Binary Tree](md/Invert Binary Tree.md) - 2015-08-10
