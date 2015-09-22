@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Majority Element II](md/Majority Element II.md) - 2015-09-22
 - [Summary Ranges](md/Summary Ranges.md) - 2015-09-22
 - [Basic Calculator II](md/Basic Calculator II.md) - 2015-09-22
 - [Implement Stack using Queues](md/Implement Stack using Queues.md) - 2015-09-22
