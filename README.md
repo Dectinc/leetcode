@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Kth Smallest Element in a BST](md/Kth Smallest Element in a BST.md) - 2015-09-22
 - [Majority Element II](md/Majority Element II.md) - 2015-09-22
 - [Summary Ranges](md/Summary Ranges.md) - 2015-09-22
 - [Basic Calculator II](md/Basic Calculator II.md) - 2015-09-22
