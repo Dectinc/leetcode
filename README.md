@@ -15,6 +15,7 @@ Dectinc_Chen
 - [Basic Calculator](md/Basic Calculator.md) - 2015-09-22
 - [Rectangle Area](md/Rectangle Area.md) - 2015-09-22
 - [Count Complete Tree Nodes](md/Count Complete Tree Nodes.md) - 2015-09-22
+- [Maximal Square](md/Maximal Square.md) - 2015-09-21
 - [Ugly Number](md/Ugly Number.md) - 2015-09-18
 - [First Bad Version](md/First Bad Version.md) - 2015-09-18
 - [Invert Binary Tree](md/Invert Binary Tree.md) - 2015-08-10
