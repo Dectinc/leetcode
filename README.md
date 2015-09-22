@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Basic Calculator](md/Basic Calculator.md) - 2015-09-22
 - [Rectangle Area](md/Rectangle Area.md) - 2015-09-22
 - [Count Complete Tree Nodes](md/Count Complete Tree Nodes.md) - 2015-09-22
 - [Ugly Number](md/Ugly Number.md) - 2015-09-18
