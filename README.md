@@ -8,6 +8,14 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Majority Element II](md/Majority Element II.md) - 2015-09-22
+- [Summary Ranges](md/Summary Ranges.md) - 2015-09-22
+- [Basic Calculator II](md/Basic Calculator II.md) - 2015-09-22
+- [Implement Stack using Queues](md/Implement Stack using Queues.md) - 2015-09-22
+- [Basic Calculator](md/Basic Calculator.md) - 2015-09-22
+- [Rectangle Area](md/Rectangle Area.md) - 2015-09-22
+- [Count Complete Tree Nodes](md/Count Complete Tree Nodes.md) - 2015-09-22
+- [Maximal Square](md/Maximal Square.md) - 2015-09-21
 - [The Skyline Problem](md/The Skyline Problem.md) - 2015-09-19
 - [Ugly Number II](md/Ugly Number II.md) - 2015-09-19
 - [Ugly Number](md/Ugly Number.md) - 2015-09-18
