@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Lowest Common Ancestor of a Binary Search Tree](md/Lowest Common Ancestor of a Binary Search Tree.md) - 2015-10-11
 - [Palindrome Linked List](md/Palindrome Linked List.md) - 2015-10-06
 - [Number of Digit One](md/Number of Digit One.md) - 2015-10-06
 - [Implement Queue using Stacks](md/Implement Queue using Stacks.md) - 2015-10-06
