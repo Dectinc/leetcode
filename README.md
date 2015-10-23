@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Delete Node in a Linked List](md/Delete Node in a Linked List.md) - 2015-10-23
 - [Lowest Common Ancestor of a Binary Tree](md/Lowest Common Ancestor of a Binary Tree.md) - 2015-10-23
 - [Lowest Common Ancestor of a Binary Search Tree](md/Lowest Common Ancestor of a Binary Search Tree.md) - 2015-10-11
 - [Palindrome Linked List](md/Palindrome Linked List.md) - 2015-10-06
