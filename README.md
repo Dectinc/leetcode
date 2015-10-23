@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Lowest Common Ancestor of a Binary Tree](md/Lowest Common Ancestor of a Binary Tree.md) - 2015-10-23
 - [Lowest Common Ancestor of a Binary Search Tree](md/Lowest Common Ancestor of a Binary Search Tree.md) - 2015-10-11
 - [Palindrome Linked List](md/Palindrome Linked List.md) - 2015-10-06
 - [Number of Digit One](md/Number of Digit One.md) - 2015-10-06
@@ -21,6 +22,8 @@ Dectinc_Chen
 - [Rectangle Area](md/Rectangle Area.md) - 2015-09-22
 - [Count Complete Tree Nodes](md/Count Complete Tree Nodes.md) - 2015-09-22
 - [Maximal Square](md/Maximal Square.md) - 2015-09-21
+- [The Skyline Problem](md/The Skyline Problem.md) - 2015-09-19
+- [Ugly Number II](md/Ugly Number II.md) - 2015-09-19
 - [Ugly Number](md/Ugly Number.md) - 2015-09-18
 - [First Bad Version](md/First Bad Version.md) - 2015-09-18
 - [Invert Binary Tree](md/Invert Binary Tree.md) - 2015-08-10
