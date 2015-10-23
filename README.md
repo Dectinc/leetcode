@@ -8,6 +8,7 @@ Dectinc_Chen
 ## Solving Problem list
 
 ## Solved Problem list
+- [Lowest Common Ancestor of a Binary Tree](md/Lowest Common Ancestor of a Binary Tree.md) - 2015-10-23
 - [Majority Element II](md/Majority Element II.md) - 2015-09-22
 - [Summary Ranges](md/Summary Ranges.md) - 2015-09-22
 - [Basic Calculator II](md/Basic Calculator II.md) - 2015-09-22
