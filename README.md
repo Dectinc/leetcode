@@ -9,6 +9,7 @@ Dectinc_Chen
 
 ## Solved Problem list
 - [Lowest Common Ancestor of a Binary Tree](md/Lowest Common Ancestor of a Binary Tree.md) - 2015-10-23
+- [Kth Smallest Element in a BST](md/Kth Smallest Element in a BST.md) - 2015-09-22
 - [Majority Element II](md/Majority Element II.md) - 2015-09-22
 - [Summary Ranges](md/Summary Ranges.md) - 2015-09-22
 - [Basic Calculator II](md/Basic Calculator II.md) - 2015-09-22
